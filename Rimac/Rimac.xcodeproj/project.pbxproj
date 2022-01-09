@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		4C0B1A77CC5D5F7A94271311 /* Pods_Rimac_RimacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995CCE9326E98E0388330F5 /* Pods_Rimac_RimacUITests.framework */; };
 		728B58B3278A643000CB28E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58B2278A643000CB28E6 /* AppDelegate.swift */; };
-		728B58B5278A643000CB28E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58B4278A643000CB28E6 /* SceneDelegate.swift */; };
-		728B58B7278A643000CB28E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58B6278A643000CB28E6 /* ViewController.swift */; };
-		728B58BA278A643000CB28E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B58B8278A643000CB28E6 /* Main.storyboard */; };
 		728B58BC278A643600CB28E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728B58BB278A643600CB28E6 /* Assets.xcassets */; };
 		728B58BF278A643600CB28E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B58BD278A643600CB28E6 /* LaunchScreen.storyboard */; };
 		728B58CA278A643700CB28E6 /* RimacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58C9278A643700CB28E6 /* RimacTests.swift */; };
@@ -30,6 +27,9 @@
 		728B5905278A8BFA00CB28E6 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728B5903278A8BFA00CB28E6 /* MovieTableViewCell.xib */; };
 		728B5908278A8C9B00CB28E6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B5906278A8C9B00CB28E6 /* MovieCollectionViewCell.swift */; };
 		728B5909278A8C9B00CB28E6 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728B5907278A8C9B00CB28E6 /* MovieCollectionViewCell.xib */; };
+		728B590E278A8EFB00CB28E6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B590D278A8EFB00CB28E6 /* MovieViewController.swift */; };
+		728B5910278A8F1500CB28E6 /* MovieViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B590F278A8F1500CB28E6 /* MovieViewController.storyboard */; };
+		728B5914278A92E600CB28E6 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B5913278A92E600CB28E6 /* DetailMovieViewController.swift */; };
 		77B2B9F34A9D09F7E2A4E9CB /* Pods_RimacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EA108814EB8A180F5A6D91 /* Pods_RimacTests.framework */; };
 		98B86FBED7992738F36BEB6F /* Pods_Rimac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE778038F3F4BF07EC225972 /* Pods_Rimac.framework */; };
 /* End PBXBuildFile section */
@@ -56,9 +56,6 @@
 		56EA108814EB8A180F5A6D91 /* Pods_RimacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		728B58AF278A643000CB28E6 /* Rimac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728B58B2278A643000CB28E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		728B58B4278A643000CB28E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		728B58B6278A643000CB28E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		728B58B9278A643000CB28E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728B58BB278A643600CB28E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728B58BE278A643600CB28E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728B58C0278A643600CB28E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +77,9 @@
 		728B5903278A8BFA00CB28E6 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		728B5906278A8C9B00CB28E6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		728B5907278A8C9B00CB28E6 /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		728B590D278A8EFB00CB28E6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		728B590F278A8F1500CB28E6 /* MovieViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieViewController.storyboard; sourceTree = "<group>"; };
+		728B5913278A92E600CB28E6 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 		7543B9F97AB54276326DAE0A /* Pods-Rimac-RimacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rimac-RimacUITests.release.xcconfig"; path = "Target Support Files/Pods-Rimac-RimacUITests/Pods-Rimac-RimacUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9838C1A1EA4BE27E9659665C /* Pods-RimacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimacTests.debug.xcconfig"; path = "Target Support Files/Pods-RimacTests/Pods-RimacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE778038F3F4BF07EC225972 /* Pods_Rimac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rimac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,12 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				728B58B2278A643000CB28E6 /* AppDelegate.swift */,
-				728B58B4278A643000CB28E6 /* SceneDelegate.swift */,
+				728B5912278A920800CB28E6 /* Movie */,
 				728B58E5278A7D0400CB28E6 /* Domain */,
-				728B58EA278A802B00CB28E6 /* Movies */,
 				728B58F3278A81E300CB28E6 /* Networking */,
-				728B58B6278A643000CB28E6 /* ViewController.swift */,
-				728B58B8278A643000CB28E6 /* Main.storyboard */,
 				728B58BB278A643600CB28E6 /* Assets.xcassets */,
 				728B58BD278A643600CB28E6 /* LaunchScreen.storyboard */,
 				728B58C0278A643600CB28E6 /* Info.plist */,
@@ -187,6 +184,7 @@
 		728B58E3278A7CB000CB28E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				728B590C278A8ECF00CB28E6 /* ViewController */,
 				728B590B278A8CAB00CB28E6 /* CollectionViewCell */,
 				728B590A278A8CA000CB28E6 /* TableViewCell */,
 			);
@@ -293,6 +291,32 @@
 				728B5907278A8C9B00CB28E6 /* MovieCollectionViewCell.xib */,
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		728B590C278A8ECF00CB28E6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				728B590D278A8EFB00CB28E6 /* MovieViewController.swift */,
+				728B590F278A8F1500CB28E6 /* MovieViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		728B5911278A91EA00CB28E6 /* DetailMovie */ = {
+			isa = PBXGroup;
+			children = (
+				728B5913278A92E600CB28E6 /* DetailMovieViewController.swift */,
+			);
+			path = DetailMovie;
+			sourceTree = "<group>";
+		};
+		728B5912278A920800CB28E6 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				728B58EA278A802B00CB28E6 /* Movies */,
+				728B5911278A91EA00CB28E6 /* DetailMovie */,
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 		9C7BB7C85A1AA4798BD54341 /* Pods */ = {
@@ -427,11 +451,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728B5910278A8F1500CB28E6 /* MovieViewController.storyboard in Resources */,
 				728B5909278A8C9B00CB28E6 /* MovieCollectionViewCell.xib in Resources */,
 				728B58BF278A643600CB28E6 /* LaunchScreen.storyboard in Resources */,
 				728B58BC278A643600CB28E6 /* Assets.xcassets in Resources */,
 				728B5905278A8BFA00CB28E6 /* MovieTableViewCell.xib in Resources */,
-				728B58BA278A643000CB28E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +585,7 @@
 			files = (
 				728B58F2278A818300CB28E6 /* MovieResponse.swift in Sources */,
 				728B58FF278A867C00CB28E6 /* MovieViewModel.swift in Sources */,
-				728B58B7278A643000CB28E6 /* ViewController.swift in Sources */,
+				728B5914278A92E600CB28E6 /* DetailMovieViewController.swift in Sources */,
 				728B58FD278A82F300CB28E6 /* MovieEndpoint.swift in Sources */,
 				728B58F7278A825A00CB28E6 /* Endpoint.swift in Sources */,
 				728B58F9278A827F00CB28E6 /* Networking.swift in Sources */,
@@ -570,8 +594,8 @@
 				728B58F0278A817900CB28E6 /* MovieRequest.swift in Sources */,
 				728B58EC278A810300CB28E6 /* Movie.swift in Sources */,
 				728B58EE278A815B00CB28E6 /* MovieData.swift in Sources */,
+				728B590E278A8EFB00CB28E6 /* MovieViewController.swift in Sources */,
 				728B5908278A8C9B00CB28E6 /* MovieCollectionViewCell.swift in Sources */,
-				728B58B5278A643000CB28E6 /* SceneDelegate.swift in Sources */,
 				728B5904278A8BFA00CB28E6 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,14 +633,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		728B58B8278A643000CB28E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				728B58B9278A643000CB28E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		728B58BD278A643600CB28E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -757,7 +773,8 @@
 				INFOPLIST_FILE = Rimac/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MovieViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -786,7 +803,8 @@
 				INFOPLIST_FILE = Rimac/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MovieViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
