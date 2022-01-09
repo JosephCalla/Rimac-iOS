@@ -25,7 +25,7 @@
 		728B58F9278A827F00CB28E6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58F8278A827F00CB28E6 /* Networking.swift */; };
 		728B58FB278A82C800CB28E6 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58FA278A82C800CB28E6 /* MovieService.swift */; };
 		728B58FD278A82F300CB28E6 /* MovieEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58FC278A82F300CB28E6 /* MovieEndpoint.swift */; };
-		728B58FF278A867C00CB28E6 /* MovieViewModeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58FE278A867C00CB28E6 /* MovieViewModeel.swift */; };
+		728B58FF278A867C00CB28E6 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58FE278A867C00CB28E6 /* MovieViewModel.swift */; };
 		77B2B9F34A9D09F7E2A4E9CB /* Pods_RimacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EA108814EB8A180F5A6D91 /* Pods_RimacTests.framework */; };
 		98B86FBED7992738F36BEB6F /* Pods_Rimac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE778038F3F4BF07EC225972 /* Pods_Rimac.framework */; };
 /* End PBXBuildFile section */
@@ -71,7 +71,7 @@
 		728B58F8278A827F00CB28E6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		728B58FA278A82C800CB28E6 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		728B58FC278A82F300CB28E6 /* MovieEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndpoint.swift; sourceTree = "<group>"; };
-		728B58FE278A867C00CB28E6 /* MovieViewModeel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModeel.swift; sourceTree = "<group>"; };
+		728B58FE278A867C00CB28E6 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		7543B9F97AB54276326DAE0A /* Pods-Rimac-RimacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rimac-RimacUITests.release.xcconfig"; path = "Target Support Files/Pods-Rimac-RimacUITests/Pods-Rimac-RimacUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9838C1A1EA4BE27E9659665C /* Pods-RimacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimacTests.debug.xcconfig"; path = "Target Support Files/Pods-RimacTests/Pods-RimacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE778038F3F4BF07EC225972 /* Pods_Rimac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rimac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,7 +186,7 @@
 		728B58E4278A7CB500CB28E6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				728B58FE278A867C00CB28E6 /* MovieViewModeel.swift */,
+				728B58FE278A867C00CB28E6 /* MovieViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -530,7 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728B58F2278A818300CB28E6 /* MovieResponse.swift in Sources */,
-				728B58FF278A867C00CB28E6 /* MovieViewModeel.swift in Sources */,
+				728B58FF278A867C00CB28E6 /* MovieViewModel.swift in Sources */,
 				728B58B7278A643000CB28E6 /* ViewController.swift in Sources */,
 				728B58FD278A82F300CB28E6 /* MovieEndpoint.swift in Sources */,
 				728B58F7278A825A00CB28E6 /* Endpoint.swift in Sources */,
