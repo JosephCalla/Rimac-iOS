@@ -8,26 +8,33 @@
 import XCTest
 @testable import Rimac
 
-class RimacTests: XCTestCase {
+class MovieViewTest: XCTestCase {
 
+    var service:MovieServiceProtocol!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        service = MovieService()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+        service = nil
+        try super.tearDownWithError()
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testMoviservice() {
+        var hasData = false
+        // Act
+        service.getMovies(request: MovieRequest(movieType: .popular)) { response, error in
+            if let response = response {
+                if response.results.count > 0 {
+                    hasData = true
+                    XCTAssertEqual(hasData,true)
+                    return
+                }
+            }
         }
+        // Assert
     }
-
 }
