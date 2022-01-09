@@ -103,7 +103,6 @@ extension MovieViewController: MovieViewModelDelegate {
 }
 
 extension MovieViewController: UITableViewDataSource {
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 3
     }

@@ -104,7 +104,7 @@
         <!--Detalle-->
         <scene sceneID="Fe9-p2-qwh">
             <objects>
-                <viewController storyboardIdentifier="MovieDetaildView" id="fcc-xi-Xfz" customClass="DetailMovieViewController" customModule="Rimac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailMovieViewController" id="fcc-xi-Xfz" customClass="DetailMovieViewController" customModule="Rimac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tEd-2K-LfU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
