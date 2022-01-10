@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C0B1A77CC5D5F7A94271311 /* Pods_Rimac_RimacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C995CCE9326E98E0388330F5 /* Pods_Rimac_RimacUITests.framework */; };
+		7259E88C278C9E9E00D80B18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259E88B278C9E9E00D80B18 /* LoginViewController.swift */; };
 		728B58B3278A643000CB28E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B58B2278A643000CB28E6 /* AppDelegate.swift */; };
 		728B58BC278A643600CB28E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728B58BB278A643600CB28E6 /* Assets.xcassets */; };
 		728B58BF278A643600CB28E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B58BD278A643600CB28E6 /* LaunchScreen.storyboard */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		0A03B7E644A6BF5811BDCDE6 /* Pods-Rimac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rimac.debug.xcconfig"; path = "Target Support Files/Pods-Rimac/Pods-Rimac.debug.xcconfig"; sourceTree = "<group>"; };
 		56EA108814EB8A180F5A6D91 /* Pods_RimacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7259E88B278C9E9E00D80B18 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		728B58AF278A643000CB28E6 /* Rimac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728B58B2278A643000CB28E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		728B58BB278A643600CB28E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +119,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7259E887278C9E4400D80B18 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7259E88A278C9E6C00D80B18 /* ViewModel */,
+				7259E889278C9E6200D80B18 /* Model */,
+				7259E888278C9E4E00D80B18 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7259E888278C9E4E00D80B18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7259E88B278C9E9E00D80B18 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7259E889278C9E6200D80B18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7259E88A278C9E6C00D80B18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		728B58A6278A642F00CB28E6 = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +347,7 @@
 		728B5912278A920800CB28E6 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				7259E887278C9E4400D80B18 /* Login */,
 				728B58EA278A802B00CB28E6 /* Movies */,
 				728B5911278A91EA00CB28E6 /* DetailMovie */,
 			);
@@ -586,6 +621,7 @@
 				728B58F2278A818300CB28E6 /* MovieResponse.swift in Sources */,
 				728B58FF278A867C00CB28E6 /* MovieViewModel.swift in Sources */,
 				728B5914278A92E600CB28E6 /* DetailMovieViewController.swift in Sources */,
+				7259E88C278C9E9E00D80B18 /* LoginViewController.swift in Sources */,
 				728B58FD278A82F300CB28E6 /* MovieEndpoint.swift in Sources */,
 				728B58F7278A825A00CB28E6 /* Endpoint.swift in Sources */,
 				728B58F9278A827F00CB28E6 /* Networking.swift in Sources */,
